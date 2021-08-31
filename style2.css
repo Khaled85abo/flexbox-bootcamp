@@ -12,8 +12,7 @@ body > div {
   height: 500px;
   width: 700px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: white;
 }
@@ -21,4 +20,11 @@ div > div {
   height: 75px;
   width: 75px;
   background: red;
+}
+
+.one {
+  align-self: flex-end;
+}
+.two {
+  align-self: flex-start;
 }
