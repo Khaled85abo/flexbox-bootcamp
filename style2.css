@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: lightgray;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+body > div {
+  height: 500px;
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+}
+div > div {
+  height: 75px;
+  width: 75px;
+  background: red;
+}
