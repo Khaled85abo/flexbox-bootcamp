@@ -1,31 +1,14 @@
 body {
   margin: 0;
-  background: lightgray;
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  justify-content: center;
-  align-content: center;
+  box-sizing: border-box;
 }
-
 body > div {
-  height: 500px;
-  width: 700px;
+  background: lightgray;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background: white;
-}
-div > div {
-  height: 75px;
-  width: 75px;
-  background: red;
+  justify-content: space-around;
 }
 
-.one {
-  align-self: flex-end;
-}
-.two {
-  align-self: flex-end;
+div > div {
+  padding: 7px;
 }
