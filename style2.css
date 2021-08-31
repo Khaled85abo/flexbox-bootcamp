@@ -2,20 +2,23 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-body > div {
-  background: lightgray;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-div > div {
+nav {
   padding: 7px;
+  height: 30px;
+  background: lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.options {
+  display: flex;
+}
+.options > div {
+  padding: 7px 30px;
 }
 
 img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   object-fit: cover;
   border-radius: 50%;
 }
